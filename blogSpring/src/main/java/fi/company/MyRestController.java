@@ -121,7 +121,7 @@ public class MyRestController {
     //------------------------------------------------------------------
     // G E T - all blogs
     //
-    @RequestMapping(value = "/blogs",  method = RequestMethod.GET)
+    @RequestMapping(value = "/blogs/",  method = RequestMethod.GET)
     public Iterable<Blog> getAllBlogs() {
         log.info("getAllBlogs()");
         Iterable<Blog> allBlogs = blogDataBase.findAll();
