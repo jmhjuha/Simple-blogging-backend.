@@ -30,5 +30,5 @@ java -jar myapp-0.1.0.jar
 - HTTP POST /blogs/2/comments
   - adding a comment to blogpost 2
 - HTTP GET /blogs/1/comments/3
-  - fetches comment with id 1 from blogpost with id 3
+  - fetches comment with id 3 from blogpost with id 1
   
